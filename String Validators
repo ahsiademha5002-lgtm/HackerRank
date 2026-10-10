@@ -1,0 +1,19 @@
+if __name__ == '__main__':
+    s = input()
+    _1,_2,_3,_4,_5=False,False,False,False,False
+    for c in s:
+        if (ord(c)>64 and ord(c)<91) or (ord(c)>96 and ord(c)<123)or (ord(c)>47 and ord(c)<58):
+            _1 = True
+        if (ord(c) > 64 and ord(c) < 91) or (ord(c) > 96 and ord(c) < 123)  :
+            _2 = True
+        if ( ord(c) > 47 and ord(c) < 58):
+            _3 = True
+        if (  ord(c) > 96 and ord(c) < 123) :
+            _4 = True
+        if (ord(c) > 64 and ord(c) < 91) :
+            _5 = True
+    print(_1)
+    print(_2)
+    print(_3)
+    print(_4)
+    print(_5)
